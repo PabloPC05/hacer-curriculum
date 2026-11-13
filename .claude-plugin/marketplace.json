@@ -1,0 +1,11 @@
+{
+  "name": "hacer-curriculum",
+  "owner": { "name": "Pablo Pardo", "url": "https://github.com/PabloPC05" },
+  "plugins": [
+    {
+      "name": "hacer-curriculum",
+      "source": "./",
+      "description": "Hacer o revisar un currículum que lean bien la IA y las personas, con la evidencia citada."
+    }
+  ]
+}

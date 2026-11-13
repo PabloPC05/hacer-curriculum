@@ -1,0 +1,10 @@
+{
+  "name": "hacer-curriculum",
+  "version": "0.1.0",
+  "description": "Skill para hacer o revisar un currículum de una página que lean bien un sistema de cribado con IA y una persona, con reglas basadas en estudios de 2023 a 2026, plantilla LaTeX y comprobación del texto extraído.",
+  "author": { "name": "Pablo Pardo", "url": "https://github.com/PabloPC05" },
+  "homepage": "https://github.com/PabloPC05/hacer-curriculum",
+  "repository": "https://github.com/PabloPC05/hacer-curriculum",
+  "license": "MIT",
+  "keywords": ["cv", "curriculum", "resume", "ats", "llm", "latex", "skill"]
+}

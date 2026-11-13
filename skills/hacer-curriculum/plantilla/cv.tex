@@ -1,0 +1,89 @@
+% CV de ejemplo. La persona, los datos y los enlaces son inventados.
+% Cambia el contenido y deja la estructura. Compila con:  pdflatex cv.tex
+\input{preamble}
+
+\hypersetup{
+  pdftitle={Ana Ejemplo Ruiz - CV},
+  pdfauthor={Ana Ejemplo Ruiz},
+  pdflang={es-ES}
+}
+
+\begin{document}
+
+%----------CABECERA----------
+% Titular de una línea y URL escritas: el hipervínculo se pierde al extraer el texto
+\begin{center}
+    {\Huge \scshape Ana Ejemplo Ruiz} \\ \vspace{3pt}
+    \small Estudiante de Ingeniería Informática $|$ Desarrollo web e IA aplicada \\ \vspace{2pt}
+    \small Valencia $|$ +34 600 000 000 $|$
+    \href{mailto:ana@example.com}{\underline{ana@example.com}} $|$
+    \href{https://github.com/ana-ejemplo}{\underline{github.com/ana-ejemplo}} $|$
+    \href{https://linkedin.com/in/ana-ejemplo}{\underline{linkedin.com/in/ana-ejemplo}}
+\end{center}
+
+%----------EDUCACIÓN----------
+% Arriba si eres estudiante. Los méritos académicos, cada uno en su punto.
+\section{Educación}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universidad de Ejemplo}{Valencia}
+      {Grado en Ingeniería Informática}{sept. 2023 -- actualidad}
+      \resumeItemListStart
+        \resumeItem{Beca de excelencia académica del curso 2023-24.}
+        \resumeItem{Matrícula de Honor en Bases de Datos.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%----------EXPERIENCIA----------
+% Fórmula XYZ: qué lograste, medido cómo y haciendo qué
+\section{Experiencia}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Empresa de Ejemplo S.L.}{Valencia}
+      {Desarrolladora en prácticas}{jun. 2025 -- sept. 2025}
+      \resumeItemListStart
+        \resumeItem{Desarrollé la API en FastAPI y PostgreSQL que usa la app móvil de reservas, con despliegue continuo en GitHub Actions.}
+        \resumeItem{Reduje el tiempo de carga del panel de administración de 4 s a 0,8 s con paginación en el servidor y caché en Redis.}
+        \resumeItem{Escribí 120 pruebas automáticas que subieron la cobertura del servicio del 35 \% al 80 \%.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%----------PROYECTOS----------
+% Nombre descriptivo (no el apodo interno) y tecnologías en el encabezado
+\section{Proyectos}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Asistente de estudio con IA} $|$ \emph{Python, TypeScript, React}}{feb. 2026 -- actualidad}
+          \resumeItemListStart
+            \resumeItem{Desarrollé una aplicación web que genera preguntas de repaso a partir de los apuntes en PDF con un modelo de lenguaje (LLM), y la usan 40 estudiantes de mi facultad.}
+            \resumeItem{Publiqué el código como software libre en \href{https://github.com/ana-ejemplo/asistente-estudio}{\underline{github.com/ana-ejemplo/asistente-estudio}}.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Otros proyectos} $|$ \emph{2025}}{}
+          \resumeItemListStart
+            \resumeItem{Creé un bot de Telegram que avisa de los cambios de aula y horario de la facultad.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%----------PREMIOS Y COMUNIDAD----------
+% Nombre oficial del evento, comprobado en su web, y papel claro
+\section{Premios y comunidad}
+  \begin{itemize}[leftmargin=0.3in, itemsep=0pt, topsep=2pt]
+    \resumeItem{Ganadora en equipo del reto de sostenibilidad del Hackathon de Ejemplo, marzo de 2026.}
+    \resumeItem{Voluntaria en la organización de las jornadas técnicas de la facultad, noviembre de 2025.}
+  \end{itemize}
+  \vspace{-8pt}
+
+%----------HABILIDADES----------
+% Agrupadas por tipo, sin barras de nivel; idiomas con su nivel MCER
+\section{Habilidades}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Lenguajes}{: Python, TypeScript, JavaScript, Java, SQL} \\
+     \textbf{Web y datos}{: FastAPI, React, PostgreSQL, Redis} \\
+     \textbf{Infraestructura}{: Docker, GitHub Actions, Linux} \\
+     \textbf{Idiomas}{: Español (nativo), valenciano (C1), inglés (B2, First Certificate)}
+    }}
+ \end{itemize}
+
+\end{document}
